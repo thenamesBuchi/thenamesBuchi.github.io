@@ -1,91 +1,87 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Onyebuchi Ibeh",
+  title: "IT Undergraduate | Full-Stack Developer | AI Enthusiast",
+  description:
+    "Portfolio website of Onyebuchi Ibeh showcasing full-stack development and AI-based projects.",
+  accentColor: "#2563eb",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "lesleiibeh5@gmail.com",
+    linkedin: "https://linkedin.com/in/yourprofile", // replace with yours
+    github: "https://github.com/thenamesBuchi",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Motivated and detail-oriented Information Technology undergraduate with hands-on experience building full-stack web applications and AI-driven systems. Strong foundation in software development, system design, and database integration, with practical experience developing scalable digital products including e-commerce platforms and recommendation systems.",
+
+  skills: [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Python",
+    "Firebase",
+    "React",
+    "Node.js",
+    "Git/GitHub",
+    "REST APIs",
+    "Figma",
+    "NLP",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Sacabae E-Commerce Platform",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed a full-stack e-commerce website for a designer bag store with user authentication, cart functionality, wishlist system, payment integration using Flutterwave, and an admin dashboard.",
+      link: "https://your-project-link.com", // replace if hosted
+      skills: ["JavaScript", "Firebase", "HTML", "CSS", "Flutterwave"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "AI Internship Recommendation System",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Built and researched an NLP-based recommendation system for internship and job matching, comparing semantic matching models for early-career recruitment.",
+      link: "https://github.com/thenamesBuchi", // replace if separate repo
+      skills: ["Python", "NLP", "Machine Learning"],
     },
     {
-      name: "ExtensionKit",
+      name: "AI Resume Builder",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Designed and prototyped an AI-powered resume builder focused on improving user experience and resume personalization using Figma.",
+      link: "https://www.figma.com/", // replace with design link
+      skills: ["Figma", "UI/UX", "Product Design"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Pakbo Restaurant",
+      title: "Waiter",
+      dateRange: "Oct 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Deliver high-quality customer service in a fast-paced environment.",
+        "Manage multiple tasks efficiently while maintaining service quality.",
+        "Developed strong communication and teamwork skills.",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Middlesex University Mauritius",
+      degree: "BSc (Hons) Information Technology",
+      dateRange: "2023 - Present",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Dissertation: NLP-Based Recommendation Approaches for Internship and Job Matching",
+        "Focused on software engineering and AI systems",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Online Learning",
+      degree: "Web Development & App Design Certifications",
+      dateRange: "2024 - 2025",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Completed HTML, CSS, and JavaScript coursework",
+        "Completed App Design course using Figma",
       ],
     },
   ],
